@@ -177,40 +177,40 @@ footer .balkfooter a:hover {
 
 
 /* -------------- DUIKEN -------------- */
-#header2{
+.header2{
     width: 60%;
     margin: 5rem auto;
 }
 
-header #header-foto-3{
+header .header-foto-3{
     height: 338px;
     width: 250px;
     overflow: hidden;
     position: relative;
     z-index: 10;
 }
-header #header-foto-3 img{
+header .header-foto-3 img{
     height: inherit;
     position: relative;
-    left: -50%;
+    left: -25%;
 }
 
-header #header-foto-4{
+header .header-foto-4{
     height: 200px;
     width: 657px;
     overflow: hidden;
     position: relative;
-    top: -2rem;
+    top: -1rem;
     left: -2rem;
     z-index: 0;
 }
-header #header-foto-4 img{
+header .header-foto-4 img{
     width: inherit;
     position: relative;
-    top: -50%;
+    top: -25%;
 }
 
-#header2 h1{
+.header2 h1{
     position: relative;
     top: -34rem;
     left: 17rem;
@@ -218,7 +218,7 @@ header #header-foto-4 img{
 
 #header2-tekst{
     position: relative;
-    top: -33rem;
+    top: -34rem;
     left: 17rem;
     width: 40rem;
 }
@@ -252,4 +252,68 @@ header #header-foto-4 img{
 .bol h3{
     color: white;
     text-align: center;
+}
+#duiksport-main{
+    width: 80%;
+    margin: -20rem auto 0 auto;
+}
+.duiksport-brevet-card{
+    margin: 1rem 3rem;
+}
+#duiksport-brevetten{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.duiksport-brevet-card .cards-image{
+    height: 15rem;
+    width: 15rem;
+    overflow: hidden;
+}
+.duiksport-brevet-card .cards-image img{
+    height: inherit;
+}
+.duiksport-brevet-card p{
+    background-color: #4B8996;
+    width: 12rem;
+    padding: 0.5rem;
+    position: relative;
+    top: -1rem;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    border-radius: 1rem;
+}
+
+.dank {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto 0 auto;
+}
+
+.dank h2 {
+    width: 100%;
+}
+
+.dank div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 50px 0 100px 0;
+}
+
+.dank div a {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.dank div a img {
+    width: 100%;
+    height: fit-content;
 }
