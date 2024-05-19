@@ -40,7 +40,7 @@ h2 {
 
 h3 {
     font-weight: bold;
-    font-size: 38px;
+    font-size: 30px;
     color: #012836;
 }
 
@@ -228,8 +228,13 @@ header #header-foto-4 img{
 
 #meer-info-over-duiken{
     width: 80%;
-    margin: 0 auto;
+    margin: -17rem auto 0 auto;
 }
+#meer-info-over-duiken h2{
+    text-align: right;
+    margin: 2rem 0;
+}
+
 #meer-info-bollen{
     display: flex;
     flex-direction: row;
@@ -240,10 +245,11 @@ header #header-foto-4 img{
     border-radius: 50%;
     margin: 2rem;
     height: 15rem;
-    width: 15rem;
+    width: 15rem;display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .bol h3{
     color: white;
-    align-items: center;
     text-align: center;
 }
