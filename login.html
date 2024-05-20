@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Duikclub Dolfijn</title>
+    <title>Login</title>
     <link rel="stylesheet" href="static/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,11 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet">
 </head>
-<body id="home">
-<video width="100%" autoplay muted loop>
-    <source src="static/assets/1456686-hd_1920_1080_30fps.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+<body id="login">
 <nav>
     <a href="index.html">
         <img src="static/assets/Dolfijn%201.png" alt="logo">
@@ -28,52 +24,22 @@
         </a>
     </div>
 </nav>
-<header>
-    <h1>Duik in het avontuur</h1>
-</header>
 <main>
-    <section id="welkomhome">
-        <div class="tekst">
-            <h2>Welkom bij duikclub Dolfijn!</h2>
-            <p>Wij zijn een gezellige duikclub in Bilzen waar je terecht kunt om te leren duiken of gewoonweg te
-                genieten van duiken in een aangename clubsfeer.<br><br>
-                Onze ervaren instructeurs staan klaar om je te begeleiden bij je eerste stappen onder water en om
-                sportduikers alle mogelijkheden te bieden om hun hobby uit te oefenen. Elke dinsdagavond van 21u tot 22u
-                oefenen we in het Stedelijk Zwembad De Kimpel, waar we gratis allerhande duikmateriaal ter beschikking
-                stellen.<br><br>
-                Ben je geïnteresseerd in een initiatieles? Schrijf je dan nu in en ontdek de onderwaterwereld met ons!
-            </p>
-            <a href="lessen-initiatie.html">
-                <button>Gratis duikinitiatie</button>
-            </a>
-        </div>
-        <div class="fotos">
-            <img class="foto-top" src="static/assets/Mask%20group.png" alt="foto">
-            <img class="foto-mid" src="static/assets/Mask%20group2.png" alt="foto">
-            <img class="foto-bot" src="static/assets/Mask%20group3.png" alt="foto">
-        </div>
-    </section>
-    <section id="aanbodhome">
-        <h2>Ons aanbod</h2>
-        <div>
-            <a href="lessen-initiatie.html">
-                <button>Initiatie</button>
-            </a>
-            <a href="duiken.html">
-                <button>Clubduiken</button>
-            </a>
-            <a href="duiksport.html">
-                <button>Trainingen</button>
-            </a>
-        </div>
-    </section>
-    <section class="dank">
-        <h2>Met dank aan</h2>
-        <div>
-            <a href="https://www.limos-vzw.be/" target="_blank"><img src="static/assets/Limos_full%201.png" alt="partner"></a>
-            <a href="https://nelos.be/" target="_blank"><img src="static/assets/Nelos_full%201.png" alt="partner"></a>
-            <a href="https://www.cmas.org/" target="_blank"><img src="static/assets/CMAS_BEFOS_full%201.png" alt="partner"></a>
-        </div>
+    <section id="inloggen">
+        <img src="static/assets/Dolfijn_full%201.png" alt="logo">
+        <form method="get" action="mailto:">
+            <label for="voornaam">Voornaam</label>
+            <br>
+            <input type="text" name="voornaam" id="voornaam" required>
+            <br>
+            <label for="ww">Wachtwoord</label>
+            <br>
+            <input type="password" name="ww" id="ww" required>
+            <br>
+            <fieldset>
+                <button type="submit">Verzenden</button>
+            </fieldset>
+        </form>
     </section>
 </main>
 <footer>
