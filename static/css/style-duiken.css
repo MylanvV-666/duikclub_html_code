@@ -13,12 +13,11 @@ body {
 button {
     background-color: #4b8996;
     color: white;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     padding: 10px 50px 10px 60px;
     border: none;
     border-radius: 10px;
     text-align: center;
-    font-size: 24px;
 }
 
 button:hover {
@@ -54,7 +53,7 @@ a:hover {
     color: #4B8996;
 }
 
-/*navigatie niet leden*/
+/* -------------- navigatie niet leden ---------------- */
 nav {
     width: 100%;
     height: 115px;
@@ -92,19 +91,18 @@ nav .menu-items button:hover {
     color: #fff;
 }
 
-/*footer*/
-footer {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* ---------------- footer -------------- */
+footer{
+    margin-top: 2rem;
 }
-
+footer p, footer a{
+    font-size: 12pt;
+    margin-top: 20px;
+}
 footer .gegevensfooter {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
 }
 
 footer .gegevensfooter div {
@@ -112,7 +110,7 @@ footer .gegevensfooter div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 0 50px;
 }
 
 footer .gegevensfooter .border {
@@ -122,7 +120,6 @@ footer .gegevensfooter .border {
 footer .gegevensfooter div p, footer .gegevensfooter div a {
     width: 100%;
     text-align: left;
-    padding-bottom: 20px;
 }
 
 footer .gegevensfooter div .gegevensmeticonen {
@@ -132,11 +129,11 @@ footer .gegevensfooter div .gegevensmeticonen {
     align-items: center;
     padding: 0;
     width: 100%;
-    height: 100px;
 }
 
 footer .gegevensfooter div .gegevensmeticonen img {
     width: 10%;
+    margin-top: 20px;
 }
 
 footer .gegevensfooter div .gegevensmeticonen p {
@@ -144,6 +141,7 @@ footer .gegevensfooter div .gegevensmeticonen p {
 }
 
 footer .gegevensfooter div .socialsfooter {
+    margin-top:50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -161,14 +159,15 @@ footer .gegevensfooter div .socialsfooter a {
 footer .balkfooter {
     background-color: #012836;
     width: 100%;
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 footer .balkfooter a {
     color: white;
+    font-size: 10pt;
+    margin-bottom: 20px;
 }
 
 footer .balkfooter a:hover {
@@ -264,7 +263,7 @@ header .header-foto-4 img{
     justify-content: center;
     align-items: center;
 }
-#duiksport-brevetten{
+.brevetten{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -321,4 +320,150 @@ header .header-foto-4 img{
 .dank div a img {
     width: 100%;
     height: fit-content;
+}
+
+
+/* ----------- PRIJZEN -------------*/
+#prijzen-main{
+    width: 60%;
+    margin: 2rem auto 0 auto;
+}
+#prijzen-main h1{
+    text-align: center;
+    margin: 5rem 0;
+}
+#prijzen-main h2{
+    margin: 2rem 0;
+}
+
+#duikmateriaal #indoor{
+    display: flex;
+    flex-direction: row;
+}
+#duikmateriaal #indoor-foto1{
+    height: 180px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+
+}
+#duikmateriaal #indoor-foto1 img{
+    width: inherit;
+    height: fit-content;
+    position: relative;
+    top: -50%;
+}
+
+#duikmateriaal #indoor-foto2{
+    height: 232px;
+    width: 204px;
+    overflow: hidden;
+    position: relative;
+    left: 15rem;
+    top: -1rem;
+}
+#duikmateriaal #indoor-foto2 img{
+    height: inherit;
+    width: fit-content;
+}
+#duikmateriaal #indoor-tekst{
+    margin-left: 5rem;
+}
+
+#duikmateriaal #outdoor{
+    display: flex;
+    flex-direction: row;
+}
+#duikmateriaal #outdoor-tekst p{
+    margin: 1rem 0;
+}
+
+#duikmateriaal #outdoor-foto1{
+    height: 187px;
+    width: 377px;
+    overflow: hidden;
+    position: relative;
+    left: 10rem;
+    top: 3rem;
+    z-index: 0;
+}
+#duikmateriaal #outdoor-foto1 img{
+    width: inherit;
+    height: fit-content;
+    position: relative;
+    top: 0;
+}
+#duikmateriaal #outdoor-foto2{
+    height: 331px;
+    width: 203px;
+    overflow: hidden;
+    position: relative;
+    left: 5rem;
+
+}
+#duikmateriaal #outdoor-foto2 img{
+    height: inherit;
+    width: fit-content;
+}
+#duikmateriaal #outdoor-foto3{
+    height: 184px;
+    width: 326px;
+    overflow: hidden;
+    position: relative;
+    left: 10rem;
+    top: -2rem;
+
+}
+#duikmateriaal #outdoor-foto3 img{
+    width: inherit;
+    height: fit-content;
+}
+
+/* ------------ LESSEN -----------*/
+#lessen-header{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 2rem auto 0 auto;
+}
+#lessen-header-tekst p{
+    margin: 1rem 1rem 0 0;
+}
+#lessen-header-foto1{
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+    left: 10rem;
+    z-index: 10;
+}
+#lessen-header-foto1 img{
+    height: inherit;
+    width: fit-content;
+    overflow: hidden;
+}
+#lessen-header-foto2{
+    height: 140px;
+    width: 350px;
+    overflow: hidden;
+    position: relative;
+    top: -1rem;
+    z-index: 0;
+}
+
+#lessen-header-foto2 img{
+    height: fit-content;
+    width: inherit;
+    overflow: hidden;
+}
+
+#lessen-buttons{
+    width: 60%;
+    margin: 2rem auto;
+    text-align: right;
+}
+
+#lessen-main{
+    width: 80%;
+    margin: 0 auto;
 }
