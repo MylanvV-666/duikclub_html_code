@@ -227,7 +227,7 @@ header .header-foto-4 img{
 
 #meer-info-over-duiken{
     width: 80%;
-    margin: -17rem auto 0 auto;
+    margin: -17rem auto 5rem auto;
 }
 #meer-info-over-duiken h2{
     text-align: right;
@@ -257,18 +257,24 @@ header .header-foto-4 img{
     margin: -20rem auto 0 auto;
 }
 .duiksport-brevet-card{
-    margin: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
 }
 .brevetten{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-top: 2rem;
+    width: 100%;
 }
 .duiksport-brevet-card .cards-image{
-    height: 15rem;
-    width: 15rem;
+    width: 25rem;
+    height: 25rem;
     overflow: hidden;
 }
 .duiksport-brevet-card .cards-image img{
@@ -281,7 +287,6 @@ header .header-foto-4 img{
     position: relative;
     top: -1rem;
     text-align: center;
-    margin: 0 auto;
     color: white;
     border-radius: 1rem;
 }

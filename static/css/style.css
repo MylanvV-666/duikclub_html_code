@@ -51,7 +51,7 @@ h3 {
     color: #012836;
 }
 
-p, a {
+p, a, label {
     font-weight: normal;
     font-size: 24px;
     color: #012836;
@@ -59,6 +59,44 @@ p, a {
 
 a:hover {
     color: #4B8996;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0 50px 0;
+    border: 1px solid #012836;
+    color: #012836;
+    border-radius: 20px;
+}
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+fieldset input {
+    width: 7%;
+}
+
+fieldset label {
+    padding-left: 20px;
+}
+
+.rood {
+    color: red;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin: 20px 0 0 0;
+    border: 1px solid #012836;
+    color: #012836;
+    border-radius: 20px;
 }
 
 /*navigatie niet leden*/
@@ -297,4 +335,437 @@ footer .balkfooter a:hover {
     background-image: url("../assets/Mask group.png");
     background-size: cover;
     color: white;
+}
+
+/*main over ons*/
+#over_ons main {
+    width: 100%;
+    padding: 100px 150px;
+}
+
+/*sectie1*/
+#over_ons main #over_overons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#over_ons main #over_overons div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#over_ons main #over_overons #titelenfoto {
+    align-items: flex-end;
+}
+
+#over_ons main #over_overons #tekstenfoto {
+    align-items: flex-start;
+}
+
+#over_ons main #over_overons #tekstenfoto p {
+    padding-top: 40px;
+    width: 80%;
+}
+
+#over_ons main #over_overons #tekstenfoto img {
+    position: relative;
+    right: 40px;
+    bottom: 50px;
+}
+
+/*sectie2*/
+#over_ons main #bestuur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+#over_ons main #bestuur h2 {
+    width: 100%;
+}
+
+#over_ons main #bestuur #personen {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 40px 0;
+}
+
+#over_ons main #bestuur #personen .personenrij {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#over_ons main #bestuur #personen .personenrij .persoon {
+    width: 33%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#over_ons main #bestuur #personen .personenrij .persoon div {
+    width: 60%;
+    background-color: white;
+    border: 1px solid #4B8996;
+    border-radius: 10px;
+    padding: 10px 0;
+    position: relative;
+    bottom: 40px;
+}
+
+/*sectie3*/
+#over_ons main #watdoenwij {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#over_ons main #watdoenwij h2 {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#over_ons main #watdoenwij div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#over_ons main #watdoenwij div .tekstlinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 150px;
+    width: 40%;
+    text-align: right;
+}
+
+#over_ons main #watdoenwij div .tekstlinks a {
+    width: 100%;
+    align-content: flex-end;
+}
+
+#over_ons main #watdoenwij div .tekstlinks h3, #over_ons main #watdoenwij div #tekstrechts h3 {
+    padding-bottom: 40px;
+}
+
+#over_ons main #watdoenwij div .tekstlinks p, #over_ons main #watdoenwij div #tekstrechts p {
+    padding-bottom: 100px;
+}
+
+#over_ons main #watdoenwij div .fotos {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#over_ons main #watdoenwij div .fotos .foto-top {
+    position: relative;
+    right: 150px;
+}
+
+#over_ons main #watdoenwij div .fotos .foto-mid {
+    position: relative;
+    bottom: 75px;
+}
+
+#over_ons main #watdoenwij div .fotos .foto-bot {
+    position: relative;
+    bottom: 150px;
+    right: 100px;
+    width: 50%;
+}
+
+#over_ons main #watdoenwij div #tekstrechts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 150px;
+    width: 40%;
+}
+
+#over_ons main #watdoenwij div #fotosleft {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#over_ons main #watdoenwij div #fotosleft .fotoleft-top {
+    width: 50%;
+}
+
+#over_ons main #watdoenwij div #fotosleft .fotoleft-mid {
+    position: relative;
+    bottom: 250px;
+    left: 300px;
+}
+
+#over_ons main #watdoenwij div #fotosleft .fotoleft-bot {
+    position: relative;
+    bottom: 275px;
+}
+
+#over_ons #kaartoverons h2 {
+    padding: 50px 150px;
+}
+
+/*main duikplaatsen*/
+#duikplaatsen main {
+    width: 100%;
+    padding: 100px 150px;
+}
+
+#duikplaatsen main #duikplaatsenheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#duikplaatsen main #duikplaatsenheader .fotos {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#duikplaatsen main #duikplaatsenheader .fotos .foto-top {
+    width: 50%;
+    position: relative;
+    left: 22rem;
+}
+
+#duikplaatsen main #duikplaatsenheader .fotos .foto-bot {
+    position: relative;
+    bottom: 12rem;
+    right: 5rem;
+}
+
+#duikplaatsen main #duikplaatsenheader .tekst {
+    width: 50%;
+}
+
+#duikplaatsen main #duikplaatsenheader .tekst h1 {
+    padding-bottom: 100px;
+}
+
+#duikplaatsen main #duikplaatsenheader .tekst p {
+    width: 75%;
+}
+
+#duikplaatsen main .duikplaatsencarousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#duikplaatsen main .duikplaatsencarousel p {
+    width: 75%;
+}
+
+/*sliders*/
+.slider {
+    background: white;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 50px auto;
+    border-left: 2px solid #4B8996;
+    border-right: 2px solid #4B8996;
+}
+
+.slider::before, .slider::after {
+     content: "";
+     height: 500px;
+     position: absolute;
+     width: 500px;
+     z-index: 2;
+}
+
+.slider::after {
+     right: 0;
+     top: 0;
+     transform: rotateZ(180deg);
+ }
+
+.slider::before {
+     left: 0;
+     top: 0;
+ }
+
+.slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(500px * 14);
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-500px * 7))}
+}
+
+/*main lessen initiatie*/
+#lessen_initiatie main {
+    width: 100%;
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*sectie1*/
+#lessen_initiatie main #gratis_duikinitiatie_lessenpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+}
+
+/*sectie2*/
+#lessen_initiatie main #nieuw_avontuur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 0;
+    width: 80%;
+}
+
+#lessen_initiatie main #nieuw_avontuur .fotos {
+    width: 60%;
+}
+
+#lessen_initiatie main #nieuw_avontuur .fotos .foto-mid {
+    position: relative;
+    right: 50px;
+    top: 100px;
+}
+
+#lessen_initiatie main #nieuw_avontuur .fotos .foto-bot {
+    position: relative;
+    top: 75px;
+}
+
+#lessen_initiatie main #nieuw_avontuur .tekst {
+    width: 40%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#lessen_initiatie main #nieuw_avontuur .tekst h2 {
+    padding-bottom: 50px;
+}
+
+#lessen_initiatie main #nieuw_avontuur .tekst p {
+    padding-bottom: 125px;
+}
+
+/*sectie3*/
+#lessen_initiatie main #inschrijving_initiatie {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#lessen_initiatie main #inschrijving_initiatie p {
+    padding: 20px 0 50px 0;
+}
+
+#lessen_initiatie main #inschrijving_initiatie form {
+    text-align: left;
+    width: 40%;
+}
+
+/*main contact*/
+#contact main {
+    width: 100%;
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*sectie1*/
+#contact main #contactformulier {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact main #contactformulier form {
+    width: 40%;
+}
+
+#contact main #contactformulier h1 {
+    padding-bottom: 50px;
+}
+
+#contact main #contactformulier form fieldset input {
+    width: 5%;
+}
+
+/*sectie2*/
+#contact main #contactgegevens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 50px 0;
+}
+
+#contact main #contactgegevens #gegevens {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#contact main #contactgegevens #kaart {
+    width: 50%;
+}
+
+/*main login*/
+#login main #inloggen {
+    width: 100%;
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login main #inloggen form {
+    width: 40%;
 }

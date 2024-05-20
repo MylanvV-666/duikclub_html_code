@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Duiken</title>
-    <link rel="stylesheet" href="static/css/style-duiken.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="static/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet">
 </head>
-<body>
+<body id="contact">
 <nav>
     <a href="index.html">
         <img src="static/assets/Dolfijn%201.png" alt="logo">
@@ -24,49 +24,48 @@
         </a>
     </div>
 </nav>
-<header class="header2">
-    <div class="header-foto-3">
-        <img src="static/assets/Zeelandweekend-16.jpg"
-             alt="Twee duikers rechtstaand in water zich aan het klaarmaken voor een duik">
-    </div>
-    <div class="header-foto-4">
-        <img src="static/assets/Zeelandweekend-20.jpg" alt="Uitzicht over zee horizon">
-    </div>
-
-    <h1>Is duiken iets voor jou?</h1>
-    <div id="header2-tekst">
-        <p>Ben je nieuwsgierig naar de onderwaterwereld en vraag je je af of duiken iets voor jou is? Bij Duikclub
-            Dolfijn verwelkomen we zowel beginners als ervaren duikers die hun passie willen verdiepen.</p>
-        <p>Als je interesse hebt om te leren duiken of gewoon meer wilt weten over deze opwindende activiteit, aarzel
-            dan niet om contact met ons op te nemen. Duiken is voor iedereen die houdt van avontuur, ontdekking en
-            plezier
-            onder water!</p>
-    </div>
-</header>
 <main>
-    <section id="meer-info-over-duiken">
-        <h2>Meer info over duiken</h2>
-         <div id="meer-info-bollen">
-            <a href="/duiksport">
-                <div class="bol">
-                    <h3>Duiksport</h3>
-                </div>
-            </a>
-            <a href="/duiksport">
-                <div class="bol">
-                    <h3>Prijzen</h3>
-                </div>
-            </a>
-            <a href="/duiksport">
-                <div class="bol">
-                    <h3>Lessen en</br>brevetten</h3>
-                </div>
-            </a>
-            <a href="/duiksport">
-                <div class="bol">
-                    <h3>Duikplaatsen</h3>
-                </div>
-            </a>
+    <section id="contactformulier">
+        <h1>Contact</h1>
+        <form method="post" action="mailto:">
+            <label for="voornaam">Voornaam<span class="rood">*</span></label>
+            <br>
+            <input type="text" name="voornaam" id="voornaam" required>
+            <br>
+            <label for="naam">Naam<span class="rood">*</span></label>
+            <br>
+            <input type="text" name="naam" id="naam" required>
+            <br>
+            <label for="email">E-mail<span class="rood">*</span></label>
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="bericht">Je boodschap<span class="rood">*</span></label>
+            <br>
+            <textarea name="bericht" id="bericht" required></textarea>
+            <br>
+            <fieldset>
+                <input type="checkbox" name="privacy" id="privacy" class="checkbox" required>
+                <label for="privacy"><span class="rood">*</span>Ik heb het privacybeleid, de servicevoorwaarden en de
+                    communityrichtlijnen gelezen en ga ermee akkoord.</label>
+                <br>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Verzenden</button>
+            </fieldset>
+        </form>
+    </section>
+    <section id="contactgegevens">
+        <div id="gegevens">
+            <h2>Onze thuisbasis</h2>
+            <p>Eikenstraat 25<br>3740 Bilzen</p>
+            <p>e-maiadress@host.be</p>
+            <p>+32 456 78 91</p>
+        </div>
+        <div id="kaart">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.29810165103!2d5.587565312466157!3d50.936699852115694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0dc5f4fbca731%3A0x2ce2d027f84f5ae5!2sEikenstraat%2025%2C%203690%20Zutendaal!5e0!3m2!1snl!2sbe!4v1716212081198!5m2!1snl!2sbe"
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 </main>
