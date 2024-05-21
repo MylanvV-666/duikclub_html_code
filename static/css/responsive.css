@@ -1,0 +1,196 @@
+@media screen and (max-width: 1200px) {
+    /*navigatie niet leden*/
+    nav #groot_menu {
+        display: none;
+    }
+
+    nav #hamburger {
+        display: flex;
+    }
+
+    /*footer*/
+    footer .gegevensfooter div {
+        padding: 50px 50px 10px 50px;
+    }
+
+    footer .gegevensfooter div #logo_footer {
+        width: 100%;
+    }
+
+    footer .gegevensfooter div .gegevensmeticonen img {
+        display: none;
+    }
+
+    footer .gegevensfooter div .socialsfooter {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    /*header home*/
+    #home header h1 {
+        height: 500px;
+        padding: 350px 150px 0 0;
+    }
+
+    /*main home*/
+    #home main {
+        padding: 0 150px;
+    }
+
+    /*sectie1*/
+    #welkomhome {
+        flex-direction: column;
+        padding: 80px 0;
+    }
+
+    /*sectie1 tekst*/
+    #welkomhome .tekst {
+        width: 100%;
+    }
+
+    #welkomhome .tekst p {
+        width: 100%;
+    }
+
+    #welkomhome .tekst a {
+        justify-content: left;
+    }
+
+    /*sectie1 img*/
+    #welkomhome .fotos {
+        display: none;
+    }
+
+    /*sectie2*/
+    #aanbodhome div {
+        flex-wrap: wrap;
+    }
+
+    #aanbodhome div a {
+        width: 49%;
+        margin-bottom: 20px;
+    }
+
+    #aanbodhome div #lang_responcive {
+        width: 100%;
+    }
+
+    #aanbodhome div a button {
+        width: 100%;
+        height: 200px;
+    }
+
+    /*sectie3*/
+    .dank div {
+        width: 100%;
+        padding: 50px 0 50px 0;
+    }
+
+    .dank div a {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dank div a img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    /*main over ons*/
+    #over_ons main {
+        padding: 150px;
+    }
+
+    /*sectie1*/
+    #over_ons main #over_overons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    #over_ons main #over_overons div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #over_ons main #over_overons #titelenfoto img {
+        display: none;
+    }
+
+    #over_ons main #over_overons #tekstenfoto p {
+        width: 100%;
+    }
+
+    #over_ons main #over_overons #tekstenfoto img {
+        display: none;
+    }
+
+    /*sectie2*/
+    #over_ons main #bestuur #personen {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    #over_ons main #bestuur #personen .personenrij {
+        flex-wrap: wrap;
+    }
+
+    #over_ons main #bestuur #personen .personenrij .persoon {
+        width: 50%;
+    }
+
+    /*sectie3*/
+    #over_ons main #watdoenwij div {
+        flex-direction: column-reverse;
+        padding-bottom: 50px;
+    }
+
+    #over_ons main #watdoenwij #andersom {
+        flex-direction: column;
+    }
+
+    #over_ons main #watdoenwij h2 {
+        padding-bottom: 10px;
+    }
+
+    #over_ons main #watdoenwij div .tekstlinks {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    #over_ons main #watdoenwij div .tekstlinks p, #over_ons main #watdoenwij div #tekstrechts p {
+        padding-bottom: 40px;
+    }
+
+    #over_ons main #watdoenwij div .fotos, #over_ons main #watdoenwij div #fotosleft {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #over_ons main #watdoenwij div .fotos .foto-top, #over_ons main #watdoenwij div #fotosleft .fotoleft-mid {
+        position: static;
+    }
+
+    #over_ons main #watdoenwij div .fotos .foto-mid, #over_ons main #watdoenwij div #fotosleft .fotoleft-top {
+        display: none;
+    }
+
+    #over_ons main #watdoenwij div .fotos .foto-bot, #over_ons main #watdoenwij div #fotosleft .fotoleft-bot {
+        display: none;
+    }
+
+    #over_ons main #watdoenwij div #tekstrechts {
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    #over_ons #kaartoverons h2 {
+        padding: 0 50px 50px 50px;
+    }
+
+
+}

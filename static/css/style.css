@@ -100,7 +100,7 @@ textarea {
 }
 
 /*navigatie niet leden*/
-nav {
+nav #groot_menu {
     width: 100%;
     height: 115px;
     display: flex;
@@ -111,7 +111,7 @@ nav {
     padding: 0 40px;
 }
 
-nav .menu-items {
+nav #groot_menu .menu-items {
     width: 650px;
     display: flex;
     flex-direction: row;
@@ -119,22 +119,81 @@ nav .menu-items {
     align-items: center;
 }
 
-nav .menu-items a {
+nav #groot_menu .menu-items a {
     color: white;
 }
 
-nav .menu-items a:hover {
+nav #groot_menu .menu-items a:hover {
     color: #4b8996;
 }
 
-nav .menu-items button {
+nav #groot_menu .menu-items button {
     background-color: #fff;
     color: #012836;
 }
 
-nav .menu-items button:hover {
+nav #groot_menu .menu-items button:hover {
     background-color: transparent;
     color: #fff;
+}
+
+nav #hamburger {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+
+nav #hamburger #nav_balk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+nav #hamburger #nav_balk a, nav #hamburger #uitklap div a {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+nav #hamburger #nav_balk img, nav #hamburger #uitklap div img {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+nav #hamburger #nav_balk a img, nav #hamburger #uitklap div a img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+nav #hamburger #uitklap {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 20px 100px 100px 100px;
+}
+
+nav #hamburger #uitklap div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #hamburger #uitklap .menu-items-burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav #hamburger #uitklap .menu-items-burger a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 /*footer*/
