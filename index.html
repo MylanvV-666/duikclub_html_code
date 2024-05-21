@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
           rel="stylesheet">
+    <script defer src="static/script/script.js"></script>
+    <link rel="stylesheet" href="static/css/responsive.css">
 </head>
 <body id="home">
 <video width="100%" autoplay muted loop>
@@ -16,16 +18,42 @@
     Your browser does not support the video tag.
 </video>
 <nav>
-    <a href="index.html">
-        <img src="static/assets/Dolfijn%201.png" alt="logo">
-    </a>
-    <div class="menu-items">
-        <a href="over-ons.html">Over ons</a>
-        <a href="duiken.html">Duiken</a>
-        <a href="contact.html">Contact</a>
-        <a href="login.html">
-            <button>Login</button>
+    <div id="groot_menu">
+        <a href="index.html">
+            <img src="static/assets/Dolfijn%201.png" alt="logo">
         </a>
+        <div class="menu-items">
+            <a href="over-ons.html">Over ons</a>
+            <a href="duiken.html">Duiken</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">
+                <button>Login</button>
+            </a>
+        </div>
+    </div>
+    <div id="hamburger">
+        <div id="nav_balk">
+            <a href="index.html">
+                <img src="static/assets/Dolfijn_full%201.png" alt="logo">
+            </a>
+            <img id="menu_open" src="static/assets/Menu-Line-1--Streamline-Micro.png.png" alt="menu">
+        </div>
+        <div id="uitklap">
+            <div>
+                <a href="index.html">
+                    <img src="static/assets/Dolfijn_full%201.png" alt="logo">
+                </a>
+                <img id="menu_close" src="static/assets/Close--Streamline-Ultimate.png.png" alt="close">
+            </div>
+            <div class="menu-items-burger">
+                <a href="over-ons.html">Over ons</a>
+                <a href="duiken.html">Duiken</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">
+                    <button>Login</button>
+                </a>
+            </div>
+        </div>
     </div>
 </nav>
 <header>
@@ -62,7 +90,7 @@
             <a href="duiken.html">
                 <button>Clubduiken</button>
             </a>
-            <a href="duiksport.html">
+            <a id="lang_responcive" href="duiksport.html">
                 <button>Trainingen</button>
             </a>
         </div>
@@ -79,7 +107,7 @@
 <footer>
     <section class="gegevensfooter">
         <div class="border">
-            <img src="static/assets/Dolfijn_full%201.png" alt="logo">
+            <img id="logo_footer" src="static/assets/Dolfijn_full%201.png" alt="logo">
         </div>
         <div class="border">
             <p><b>Met dank aan:</b></p>
