@@ -505,6 +505,10 @@ footer .balkfooter a:hover {
         justify-content: space-between;
         width: 100%;
     }
+
+    #kalender main iframe {
+        margin: 200px 0 100px 0;
+    }
 }
 
 @media screen and (max-width: 1000px) {
