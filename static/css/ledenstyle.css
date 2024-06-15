@@ -454,7 +454,15 @@ footer .balkfooter a:hover {
     width: 80%;
 }
 
+#kalender main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+#kalender main iframe {
+    margin: 100px 0;
+}
 
 @media screen and (max-width: 1700px) {
 
